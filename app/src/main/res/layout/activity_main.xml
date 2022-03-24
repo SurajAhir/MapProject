@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:openDrawer="start"
+    android:id="@+id/drawer"
+    tools:context=".MainActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+<androidx.appcompat.widget.Toolbar
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/toolbar"
+  android:layout_alignParentTop="true"
+    android:elevation="15dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:elevation="15dp"
+        android:layout_marginBottom="8dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="8dp"
+            android:layout_alignParentRight="true"
+            android:orientation="horizontal">
+            <ImageButton
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginRight="5dp"
+                android:backgroundTint="#4E4C4C"
+                android:background="@drawable/ic_baseline_filter_alt_24"
+                android:id="@+id/filter"/>
+            <ImageButton
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginRight="5dp"
+                android:backgroundTint="#4E4C4C"
+                android:background="@drawable/ic_baseline_notifications_24"
+                android:id="@+id/notification"/>
+            <ImageButton
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginRight="15dp"
+                android:scaleType="fitCenter"
+                android:layout_marginTop="1dp"
+                android:backgroundTint="#4E4C4C"
+                android:background="@drawable/ic_action_replay"
+                android:id="@+id/action_replay"
+               />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</androidx.appcompat.widget.Toolbar>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="2dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        app:endIconMode="clear_text"
+        android:gravity="center"
+        app:startIconDrawable="@drawable/ic_baseline_circle_24"
+        app:startIconTint="#066116"
+        app:boxStrokeColor="#CCC8C8"
+        app:boxBackgroundColor="#CCC8C8"
+        android:layout_below="@id/toolbar">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#827F7F"
+            android:bufferType="editable"
+            android:text="Type Here"
+            android:background="#F9F7F7" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+        <fragment
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    <com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBarWrapper
+        android:layout_width="wrap_content"
+        android:layout_marginRight="8dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:layout_height="250dp">
+        <com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBar
+            android:id="@+id/mySeekBar"
+            android:layout_width="0dp"
+            android:progressBackgroundTint="#F62B2B"
+            android:thumbTint="#0BEADE"
+            android:layout_height="0dp"
+            android:splitTrack="false"
+            app:seekBarRotation="CW270" /> <!-- Rotation: CW90 or CW270 -->
+    </com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBarWrapper>
+    <Button
+        android:id="@+id/find_matches"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="30dp"
+        android:backgroundTint="@color/black"
+        android:elevation="15dp"
+        android:text="Find Matches"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/current_location_icon"
+            android:layout_alignParentRight="true"
+            android:layout_above="@id/find_matches"
+            android:layout_marginBottom="30dp"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="#19B4F2"
+            android:id="@+id/current_location"/>
+
+
+    </RelativeLayout>
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/navigation_view"
+        app:menu="@menu/navigation_menu"
+        android:layout_gravity="start"/>
+</androidx.drawerlayout.widget.DrawerLayout>

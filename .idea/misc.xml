@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/suraj.DESKTOP-1KSTK77/AndroidStudioProjects/Map/app/src/main/res/drawable/email.xml" value="0.23489583333333333" />
+        <entry key="..\:/Users/suraj.DESKTOP-1KSTK77/AndroidStudioProjects/Map/app/src/main/res/layout/activity_login_using_firebase.xml" value="0.20729166666666668" />
+        <entry key="..\:/Users/suraj.DESKTOP-1KSTK77/AndroidStudioProjects/Map/app/src/main/res/layout/activity_main.xml" value="0.21458333333333332" />
+        <entry key="..\:/Users/suraj.DESKTOP-1KSTK77/AndroidStudioProjects/Map/app/src/main/res/layout/activity_play_video.xml" value="0.21458333333333332" />
+        <entry key="..\:/Users/suraj.DESKTOP-1KSTK77/AndroidStudioProjects/Map/app/src/main/res/layout/activity_show_firebase_user_profile.xml" value="0.20729166666666668" />
+        <entry key="..\:/Users/suraj.DESKTOP-1KSTK77/AndroidStudioProjects/Map/app/src/main/res/layout/activity_show_items_on_click_on_list.xml" value="0.21458333333333332" />
+        <entry key="..\:/Users/suraj.DESKTOP-1KSTK77/AndroidStudioProjects/Map/app/src/main/res/layout/activity_show_lists_of_service.xml" value="0.21458333333333332" />
+        <entry key="..\:/Users/suraj.DESKTOP-1KSTK77/AndroidStudioProjects/Map/app/src/main/res/layout/activity_sign_up.xml" value="0.21458333333333332" />
+        <entry key="..\:/Users/suraj.DESKTOP-1KSTK77/AndroidStudioProjects/Map/app/src/main/res/layout/activity_sign_up_using_firebase.xml" value="0.20729166666666668" />
+        <entry key="..\:/Users/suraj.DESKTOP-1KSTK77/AndroidStudioProjects/Map/app/src/main/res/layout/fragment_play_video.xml" value="0.21458333333333332" />
+        <entry key="..\:/Users/suraj.DESKTOP-1KSTK77/AndroidStudioProjects/Map/app/src/main/res/layout/services_show.xml" value="0.21458333333333332" />
+        <entry key="..\:/Users/suraj.DESKTOP-1KSTK77/AndroidStudioProjects/Map/app/src/main/res/menu/map_type_menu.xml" value="0.21458333333333332" />
+        <entry key="..\:/Users/suraj.DESKTOP-1KSTK77/AndroidStudioProjects/Map/app/src/main/res/menu/navigation_menu.xml" value="0.21458333333333332" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

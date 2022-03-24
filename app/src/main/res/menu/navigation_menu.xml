@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/show_list_menu"
+    android:title="List"
+    android:icon="@drawable/navigation_list_icon"
+    />
+    <item android:id="@+id/video_menu"
+        android:title="Video"
+        android:icon="@drawable/navigation_video_icon"/>
+    <item android:id="@+id/show_user_details_menu"
+        android:title="Profile"
+        android:icon="@drawable/person"/>
+    <item
+        android:id="@+id/logout_menu"
+        android:title="Logout"
+        android:icon="@drawable/logout_24"/>
+</menu>
